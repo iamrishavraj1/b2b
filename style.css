@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Raleway:wght@700&family=Rubik+Mono+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --dark-blue: #0c2d48;
+  --mid-night-blue: #145da0;
+  --baby-blue: #ecf3fb;
+  --blue: #2e8bc0;
+  --blue-iris: #4c70c8;
+  --aquamarine: #74dcf7;
+  --border-style: 1px solid #000;
+}
+
+body {
+  background: linear-gradient(90deg, var(--white) 50%, var(--baby-blue) 50%);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav {
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+
+.navbar {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid var(--mid-night-blue);
+}
+
+.navbar-brand {
+  font-family: "Open Sans";
+  font-size: 2rem;
+}
+
+.primaryBtn {
+  background-color: var(--blue-iris);
+  color: var(--white);
+  font-family: "Raleway";
+}
+
+.primaryBtn:hover {
+  color: var(--white);
+}
+
+.learn-more i {
+  transition: transform 0.5s;
+  color: var(--black);
+}
+
+.learn-more i:hover {
+  transform: translateY(20px);
+}
+
+.up i {
+  transition: transform 0.5s;
+  color: var(--black);
+}
+
+.up i:hover {
+  transform: translateY(-20px);
+}
+
+.heading {
+  margin-top: 20px;
+}
+
+.heading a {
+  font-family: "Raleway";
+}
+
+.section {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.info {
+  background: linear-gradient(90deg, var(--baby-blue) 20%, var(--white) 100%);
+}
+
+.card {
+  font-size: 15px;
+  transition: 0.7s;
+  transition-property: transform;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+#sec-3 .card:hover {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+#sec-5 .card img {
+  max-width: 100%;
+}
+
+#sec-7 .card:hover {
+  background: var(--dark-blue);
+  color: var(--white);
+}
